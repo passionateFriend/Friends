@@ -1,0 +1,58 @@
+body {
+  background-color: #000000 !important;
+}
+.container {
+  background-color: inherit !important;
+}
+.description {
+  visibility: hidden;
+  opacity: 0;
+}
+@font-face {
+  font-family: Josefin Sans;
+  src: url('../fonts/Josefin_Sans/JosefinSans-Regular.ttf') format('truetype');
+}
+.heading {
+  font-family: Rock Salt;
+  font-size: 8vh;
+  color: #ffffff;
+  text-align: center;
+}
+.pic img {
+  width:250px;
+  height:250px;
+}
+.pic {
+  font-family: Rock Salt;
+  font-size:25px;
+}
+.pic-container {
+  background-color: #808080 !important;
+}
+.info-container {
+  font-size: 25px;
+  font-family: Josefin Sans, sans-serif;
+}
+.info-container img {
+  width: 350px;
+  height: 350px;
+}
+span:nth-of-type(1),.col-xs-6:nth-of-type(1),#Rachel label {
+  color:red;
+
+}
+span:nth-of-type(2),.col-xs-6:nth-of-type(2),#Monica label{
+  color:yellow;
+}
+span:nth-of-type(3),.col-xs-6:nth-of-type(3),#Phoebe label {
+  color:cyan;
+}
+span:nth-of-type(4),.col-xs-6:nth-of-type(4),#Chandler label {
+  color:maroon;
+}
+span:nth-of-type(5),.col-xs-6:nth-of-type(5),#Ross label {
+  color:orange;
+}
+span:nth-of-type(6),.col-xs-6:nth-of-type(6),#Joey label {
+  color:blue;
+}

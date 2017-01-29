@@ -8,10 +8,6 @@ body {
   visibility: hidden;
   opacity: 0;
 }
-@font-face {
-  font-family: Josefin Sans;
-  src: url('fonts/JosefinSans-Regular.ttf') format('truetype');
-}
 .heading {
   font-family: Rock Salt;
   font-size: 8vh;
